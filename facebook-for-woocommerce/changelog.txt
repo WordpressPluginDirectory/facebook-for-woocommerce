@@ -1,5 +1,11 @@
 *** Facebook for WooCommerce Changelog ***
 
+= 3.3.5 - 2025-02-12 = 
+* Add - Rich Text Description to Woo Product Sync with Meta by devbodaghe in #2843
+
+= 3.3.4 - 2025-02-11 =
+* Fix - Fixing the issue with version number
+
 = 3.3.3 - 2025-02-06 = 
 * Fix - Use of recommended delete connection endpoint over delete permission endpoint by atuld123 in #2844
 * Add - Expose Brand & MPN to Woocommerce UI by @devbodaghe in #2842
