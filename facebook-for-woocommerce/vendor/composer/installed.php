@@ -3,7 +3,7 @@
         'name' => 'facebookincubator/facebook-for-woocommerce',
         'pretty_version' => 'dev-main',
         'version' => 'dev-main',
-        'reference' => 'e71b9ae5fd47f1f8cff24a51af35b29b6e95e106',
+        'reference' => 'a1ce0b329940149ef172402eea42a57aad4daded',
         'type' => 'wordpress-plugin',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -22,7 +22,7 @@
         'facebookincubator/facebook-for-woocommerce' => array(
             'pretty_version' => 'dev-main',
             'version' => 'dev-main',
-            'reference' => 'e71b9ae5fd47f1f8cff24a51af35b29b6e95e106',
+            'reference' => 'a1ce0b329940149ef172402eea42a57aad4daded',
             'type' => 'wordpress-plugin',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
