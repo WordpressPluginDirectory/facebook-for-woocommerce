@@ -7,21 +7,21 @@ namespace Composer\Autoload;
 class ComposerStaticInitb893d11fc146c4af223557f99ee67187
 {
     public static $prefixLengthsPsr4 = array (
-        'W' => 
+        'W' =>
         array (
             'WooCommerce\\Facebook\\Feed\\' => 26,
             'WooCommerce\\Facebook\\' => 21,
         ),
-        'F' => 
+        'F' =>
         array (
             'Firebase\\JWT\\' => 13,
             'FacebookAds\\' => 12,
         ),
-        'C' => 
+        'C' =>
         array (
             'Composer\\Installers\\' => 20,
         ),
-        'A' => 
+        'A' =>
         array (
             'Automattic\\WooCommerce\\Grow\\Tools\\CompatChecker\\v0_0_1\\' => 55,
             'Automattic\\WooCommerce\\ActionSchedulerJobFramework\\' => 51,
@@ -29,7 +29,7 @@ class ComposerStaticInitb893d11fc146c4af223557f99ee67187
     );
 
     public static $prefixDirsPsr4 = array (
-        'WooCommerce\\Facebook\\Feed\\' => 
+        'WooCommerce\\Facebook\\Feed\\' =>
         array (
             0 => __DIR__ . '/../..' . '/includes/Feed',
             1 => __DIR__ . '/../..' . '/includes/Feed/Promotions',
@@ -37,27 +37,27 @@ class ComposerStaticInitb893d11fc146c4af223557f99ee67187
             3 => __DIR__ . '/../..' . '/includes/Feed/ShippingProfiles',
             4 => __DIR__ . '/../..' . '/includes/Feed/NavigationMenu',
         ),
-        'WooCommerce\\Facebook\\' => 
+        'WooCommerce\\Facebook\\' =>
         array (
             0 => __DIR__ . '/../..' . '/includes',
         ),
-        'Firebase\\JWT\\' => 
+        'Firebase\\JWT\\' =>
         array (
             0 => __DIR__ . '/..' . '/firebase/php-jwt/src',
         ),
-        'FacebookAds\\' => 
+        'FacebookAds\\' =>
         array (
             0 => __DIR__ . '/..' . '/facebook/capi-param-builder-php/php/capi-param-builder/src',
         ),
-        'Composer\\Installers\\' => 
+        'Composer\\Installers\\' =>
         array (
             0 => __DIR__ . '/..' . '/composer/installers/src/Composer/Installers',
         ),
-        'Automattic\\WooCommerce\\Grow\\Tools\\CompatChecker\\v0_0_1\\' => 
+        'Automattic\\WooCommerce\\Grow\\Tools\\CompatChecker\\v0_0_1\\' =>
         array (
             0 => __DIR__ . '/..' . '/woocommerce/grow/src',
         ),
-        'Automattic\\WooCommerce\\ActionSchedulerJobFramework\\' => 
+        'Automattic\\WooCommerce\\ActionSchedulerJobFramework\\' =>
         array (
             0 => __DIR__ . '/..' . '/woocommerce/action-scheduler-job-framework/src',
         ),
@@ -231,6 +231,7 @@ class ComposerStaticInitb893d11fc146c4af223557f99ee67187
         'WooCommerce\\Facebook\\API\\Plugin\\Traits\\JS_Exposable' => __DIR__ . '/../..' . '/includes/API/Plugin/Traits/JS_Exposable.php',
         'WooCommerce\\Facebook\\API\\Plugin\\WhatsAppSettings\\Handler' => __DIR__ . '/../..' . '/includes/API/Plugin/WhatsAppSettings/Handler.php',
         'WooCommerce\\Facebook\\API\\Plugin\\WhatsAppSettings\\Uninstall\\Request' => __DIR__ . '/../..' . '/includes/API/Plugin/WhatsAppSettings/Uninstall/Request.php',
+        'WooCommerce\\Facebook\\API\\Plugin\\WhatsAppSettings\\UpdateIntegrationConfig\\Request' => __DIR__ . '/../..' . '/includes/API/Plugin/WhatsAppSettings/UpdateIntegrationConfig/Request.php',
         'WooCommerce\\Facebook\\API\\Plugin\\WhatsAppSettings\\Update\\Request' => __DIR__ . '/../..' . '/includes/API/Plugin/WhatsAppSettings/Update/Request.php',
         'WooCommerce\\Facebook\\API\\ProductCatalog\\ItemsBatch\\Create\\Request' => __DIR__ . '/../..' . '/includes/API/ProductCatalog/ItemsBatch/Create/Request.php',
         'WooCommerce\\Facebook\\API\\ProductCatalog\\ItemsBatch\\Create\\Response' => __DIR__ . '/../..' . '/includes/API/ProductCatalog/ItemsBatch/Create/Response.php',
@@ -351,7 +352,6 @@ class ComposerStaticInitb893d11fc146c4af223557f99ee67187
         'WooCommerce\\Facebook\\Handlers\\WhatsAppConnection' => __DIR__ . '/../..' . '/includes/Handlers/WhatsAppConnection.php',
         'WooCommerce\\Facebook\\Handlers\\WhatsAppExtension' => __DIR__ . '/../..' . '/includes/Handlers/WhatsAppExtension.php',
         'WooCommerce\\Facebook\\Handlers\\WhatsAppUtilityConnection' => __DIR__ . '/../..' . '/includes/Handlers/WhatsAppUtilityConnection.php',
-        'WooCommerce\\Facebook\\Handlers\\Whatsapp_Webhook' => __DIR__ . '/../..' . '/includes/Handlers/Whatsapp_Webhook.php',
         'WooCommerce\\Facebook\\Integrations\\Bookings' => __DIR__ . '/../..' . '/includes/Integrations/Bookings.php',
         'WooCommerce\\Facebook\\Integrations\\IntegrationRegistry' => __DIR__ . '/../..' . '/includes/Integrations/IntegrationRegistry.php',
         'WooCommerce\\Facebook\\Jobs\\AbstractChainedJob' => __DIR__ . '/../..' . '/includes/Jobs/AbstractChainedJob.php',
