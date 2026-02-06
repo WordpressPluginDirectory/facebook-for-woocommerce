@@ -4,7 +4,7 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInitb893d11fc146c4af223557f99ee67187
+class ComposerStaticInitf00dd971333271f8ef332cbdc2063d5f
 {
     public static $prefixLengthsPsr4 = array (
         'W' =>
@@ -296,6 +296,7 @@ class ComposerStaticInitb893d11fc146c4af223557f99ee67187
         'WooCommerce\\Facebook\\Admin\\Tasks\\Setup' => __DIR__ . '/../..' . '/includes/Admin/Tasks/Setup.php',
         'WooCommerce\\Facebook\\Admin\\WhatsApp_Integration_Settings' => __DIR__ . '/../..' . '/includes/Admin/WhatsApp_Integration_Settings.php',
         'WooCommerce\\Facebook\\Checkout' => __DIR__ . '/../..' . '/includes/Checkout.php',
+        'WooCommerce\\Facebook\\CollectionPage' => __DIR__ . '/../..' . '/includes/CollectionPage.php',
         'WooCommerce\\Facebook\\Commerce' => __DIR__ . '/../..' . '/includes/Commerce.php',
         'WooCommerce\\Facebook\\Debug\\ProfilingLogger' => __DIR__ . '/../..' . '/includes/Debug/ProfilingLogger.php',
         'WooCommerce\\Facebook\\Debug\\ProfilingLoggerProcess' => __DIR__ . '/../..' . '/includes/Debug/ProfilingLoggerProcess.php',
@@ -357,7 +358,13 @@ class ComposerStaticInitb893d11fc146c4af223557f99ee67187
         'WooCommerce\\Facebook\\Handlers\\WhatsAppExtension' => __DIR__ . '/../..' . '/includes/Handlers/WhatsAppExtension.php',
         'WooCommerce\\Facebook\\Integrations\\Abstract_Localization_Integration' => __DIR__ . '/../..' . '/includes/Integrations/Abstract_Localization_Integration.php',
         'WooCommerce\\Facebook\\Integrations\\Bookings' => __DIR__ . '/../..' . '/includes/Integrations/Bookings.php',
+        'WooCommerce\\Facebook\\Integrations\\CostOfGoods\\AbstractCogsProvider' => __DIR__ . '/../..' . '/includes/Integrations/CostOfGoods/AbstractCogsProvider.php',
+        'WooCommerce\\Facebook\\Integrations\\CostOfGoods\\CostOfGoods' => __DIR__ . '/../..' . '/includes/Integrations/CostOfGoods/CostOfGoods.php',
+        'WooCommerce\\Facebook\\Integrations\\CostOfGoods\\IncorrectCogsInputStructure' => __DIR__ . '/../..' . '/includes/Integrations/CostOfGoods/IncorrectCogsInputStructure.php',
+        'WooCommerce\\Facebook\\Integrations\\CostOfGoods\\WPFactoryCogsProvider' => __DIR__ . '/../..' . '/includes/Integrations/CostOfGoods/WPFactoryCogsProvider.php',
+        'WooCommerce\\Facebook\\Integrations\\CostOfGoods\\WooCCogsProvider' => __DIR__ . '/../..' . '/includes/Integrations/CostOfGoods/WooCCogsProvider.php',
         'WooCommerce\\Facebook\\Integrations\\Facebook_Fields_Translation_Trait' => __DIR__ . '/../..' . '/includes/Integrations/Facebook_Fields_Translation_Trait.php',
+        'WooCommerce\\Facebook\\Integrations\\IntegrationIsNotAvailableException' => __DIR__ . '/../..' . '/includes/Integrations/IntegrationIsNotAvailableException.php',
         'WooCommerce\\Facebook\\Integrations\\IntegrationRegistry' => __DIR__ . '/../..' . '/includes/Integrations/IntegrationRegistry.php',
         'WooCommerce\\Facebook\\Integrations\\Polylang' => __DIR__ . '/../..' . '/includes/Integrations/Polylang.php',
         'WooCommerce\\Facebook\\Integrations\\WPML' => __DIR__ . '/../..' . '/includes/Integrations/WPML.php',
@@ -393,14 +400,16 @@ class ComposerStaticInitb893d11fc146c4af223557f99ee67187
         'WooCommerce\\Facebook\\Utilities\\DebugTools' => __DIR__ . '/../..' . '/includes/Utilities/DebugTools.php',
         'WooCommerce\\Facebook\\Utilities\\Heartbeat' => __DIR__ . '/../..' . '/includes/Utilities/Heartbeat.php',
         'WooCommerce\\Facebook\\Utilities\\Tracker' => __DIR__ . '/../..' . '/includes/Utilities/Tracker.php',
+        'WooCommerce\\Facebook\\WPMLInjector' => __DIR__ . '/../..' . '/includes/WPMLInjector.php',
+        'WooCommerce\\Facebook\\WPMLLanguageStatus' => __DIR__ . '/../..' . '/includes/WPMLLanguageStatus.php',
     );
 
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInitb893d11fc146c4af223557f99ee67187::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInitb893d11fc146c4af223557f99ee67187::$prefixDirsPsr4;
-            $loader->classMap = ComposerStaticInitb893d11fc146c4af223557f99ee67187::$classMap;
+            $loader->prefixLengthsPsr4 = ComposerStaticInitf00dd971333271f8ef332cbdc2063d5f::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInitf00dd971333271f8ef332cbdc2063d5f::$prefixDirsPsr4;
+            $loader->classMap = ComposerStaticInitf00dd971333271f8ef332cbdc2063d5f::$classMap;
 
         }, null, ClassLoader::class);
     }
